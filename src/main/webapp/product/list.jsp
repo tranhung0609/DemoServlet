@@ -11,9 +11,9 @@
 <html>
 <head>
     <title>Title</title>
+
 </head>
 <body>
-<h1>hoàn thành cây</h1>
 <a href="/ProductServlet?action=create">thêm mới</a>
 <c:forEach items='${List}' var="sanPham">
     <h3>${sanPham.id}, ${sanPham.name}, ${sanPham.price}, <a href="/ProductServlet?action=edit&id=${sanPham.id}">Edit</a>
